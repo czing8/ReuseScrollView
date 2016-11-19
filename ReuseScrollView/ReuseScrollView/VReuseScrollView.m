@@ -32,12 +32,12 @@
 @end
 
 
+#pragma mark - VReuseScrollView
 
 @interface VReuseScrollView () <UIScrollViewDelegate>
 
-@property (nonatomic, assign) NSInteger     currentIndex;
-
-@property (nonatomic, strong) NSMutableArray *visibleViews;
+@property (nonatomic, assign) NSInteger         currentIndex;
+@property (nonatomic, strong) NSMutableArray    *visibleViews;
 
 /**
  { "reuseId": reuseSet;}
